@@ -22,7 +22,7 @@ document.getElementById("google-login").addEventListener("click", () => {
 });
 
 googleBtn.addEventListener("click", () => {
-  signInWithRedirect(auth, provider)
+  signInWithPopup(auth, provider)
     .then((result) => {
       const user = result.user;
       mensaje.textContent = `✅ Bienvenido ${user.displayName} (${user.email})`;
