@@ -19,6 +19,6 @@ onAuthStateChanged(auth, (user) => {
 // Botón logout
 document.getElementById("logout").addEventListener("click", () => {
   signOut(auth).then(() => {
-    window.location.href = "../pages/index.html";
+    window.location.href = "../index.html";
   });
 });
