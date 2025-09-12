@@ -10,7 +10,7 @@ const auth = getAuth(app);
 onAuthStateChanged(auth, (user) => {
   if (!user) {
     // Si no hay sesión activa → redirigir a index.html
-    window.location.href = "index.html";
+    window.location.href = "../pages/login.html";
   } else {
     console.log("Usuario activo:", user.email);
   }
@@ -19,6 +19,6 @@ onAuthStateChanged(auth, (user) => {
 // Botón logout
 document.getElementById("logout").addEventListener("click", () => {
   signOut(auth).then(() => {
-    window.location.href = "../pages/login.html";
+    window.location.href = "../pages/index.html";
   });
 });
