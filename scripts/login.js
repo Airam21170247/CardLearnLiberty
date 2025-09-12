@@ -21,6 +21,15 @@ document.getElementById("google-login").addEventListener("click", () => {
   signInWithPopup(auth, provider);
 });
 
+// Verificar si hay usuario logueado
+onAuthStateChanged(auth, (user) => {
+  if (!user) {
+  } else {
+    // Si hay sesión activa → redirigir a menu.html
+    window.location.href = "../pages/menu.html";
+  }
+});
+
 googleBtn.addEventListener("click", () => {
   signInWithPopup(auth, provider)
     .then((result) => {
