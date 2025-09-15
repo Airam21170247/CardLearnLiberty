@@ -9,7 +9,7 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect } from
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
-// Configurar proveedor Google
+// Configurar proveedor de Login de Google
 const provider = new GoogleAuthProvider();
 
 // Botón de login
