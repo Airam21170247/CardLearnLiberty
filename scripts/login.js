@@ -18,7 +18,7 @@ const mensaje = document.getElementById("mensaje");
 
 // Botón login con redirect
 document.getElementById("google-login").addEventListener("click", () => {
-  signInWithRedirect(auth, provider);
+  signInWithPopup(auth, provider);
 });
 
 googleBtn.addEventListener("click", () => {
