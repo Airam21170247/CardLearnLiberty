@@ -11,6 +11,10 @@
     let currentIndex = 0;
     let showingFront = true;
 
+    document.getElementById("back-menu").addEventListener("click", () => {
+    window.location.href = "menu.html";
+  });
+
     async function loadSet() {
       const user = auth.currentUser;
       if (!user) return alert("Debes iniciar sesión");
