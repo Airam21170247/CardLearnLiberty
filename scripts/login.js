@@ -16,11 +16,6 @@ const provider = new GoogleAuthProvider();
 const googleBtn = document.getElementById("google-login");
 const mensaje = document.getElementById("mensaje");
 
-// Botón login con redirect
-document.getElementById("google-login").addEventListener("click", () => {
-  signInWithPopup(auth, provider);
-});
-
 googleBtn.addEventListener("click", () => {
   signInWithPopup(auth, provider)
     .then((result) => {
