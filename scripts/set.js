@@ -18,8 +18,6 @@ const db = getFirestore(app);
   });
 
     async function loadSets() {
-      const user = auth.currentUser;
-      if (!user) return alert("Debes iniciar sesión");
 
       const setsSnap = await getDocs(collection(db, "users", user.uid, "sets"));
       const setsList = document.getElementById("sets-list");

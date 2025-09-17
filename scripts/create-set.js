@@ -35,8 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 🔹 Guardar conjunto y todas sus cartas
   saveBtn.addEventListener("click", async () => {
-    const user = auth.currentUser;
-    if (!user) return alert("Debes iniciar sesión");
 
     const setName = document.getElementById("set-name").value.trim();
     if (!setName) return alert("El conjunto necesita un nombre");

@@ -21,8 +21,6 @@ const db = getFirestore(app);
     let showingFront = true;
 
     async function loadSet() {
-      const user = auth.currentUser;
-      if (!user) return alert("Debes iniciar sesión");
 
       // Nombre del conjunto
       const setDoc = await getDoc(doc(db, "users", user.uid, "sets", setId));
