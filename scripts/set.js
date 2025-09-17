@@ -41,7 +41,7 @@ onAuthStateChanged(auth, (user) => {
   if (user) {
     loadSets(user);
   } else {
-    alert("Debes iniciar sesión");
+    alert("You need to be logged in.");
     window.location.href = "login.html";
   }
 });
