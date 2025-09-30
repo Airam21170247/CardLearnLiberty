@@ -14,9 +14,47 @@ h2 {
 #sets-list {
   list-style: none;
   padding: 0;
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto 20px auto;
 }
+
+.set-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 6px 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.set-item:hover {
+  background: #f0f0f0;
+}
+
+.set-name {
+  flex: 1;
+  text-align: left;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
+
 
 #sets-list li {
   padding: 12px;
