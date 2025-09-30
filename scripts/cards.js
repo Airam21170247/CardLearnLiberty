@@ -41,7 +41,7 @@ async function loadSet(user) {
     currentIndex = 0;
     showCard();
   } else {
-    document.getElementById("card").textContent = "Este conjunto no tiene cartas.";
+    document.getElementById("card").textContent = "Nothing. Add some cards to this set.";
   }
 }
 
