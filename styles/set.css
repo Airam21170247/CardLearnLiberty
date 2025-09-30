@@ -49,10 +49,26 @@ h2 {
   padding: 6px 12px;
   cursor: pointer;
   transition: background 0.2s ease;
+  margin-left: 8px;
 }
 
 .delete-btn:hover {
   background: #c0392b;
+}
+
+.edit-btn{
+  background: #f39c12;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  margin-left: 8px;
+}
+
+.edit-btn:hover {
+  background: #d35400;
 }
 
 
