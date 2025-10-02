@@ -43,6 +43,7 @@ body {
   display: block;
   text-decoration: none;
   background: #0080ff;
+  border: 2px solid #0080ff;
   color: #fefefe;
   padding: 10px 10px;
   border-radius: 8px;
@@ -53,6 +54,7 @@ body {
 
 .btn:hover {
   background: #005bb5;
+  border: 2px solid #005bb5;
 }
 
 #user-info {
@@ -60,4 +62,9 @@ body {
   margin-bottom: 20px;
   font-size: 16px;
   color: #686868;
+}
+
+#logout:hover{
+  background: #ffffff;
+  color: #000;
 }
