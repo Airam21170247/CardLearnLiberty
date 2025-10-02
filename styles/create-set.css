@@ -43,7 +43,7 @@ h2 {
   display: block;
   margin: 20px auto;
   padding: 12px 24px;
-  background: #007bff;
+  background: #3183ff;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -52,14 +52,14 @@ h2 {
 }
 
 #save-set:hover {
-  background: #0056b3;
+  background: #1271ff;
 }
 
 #add-card {
   display: block;
   margin: 20px auto;
   padding: 12px 24px;
-  background: #007bff;
+  background: #00ff40;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -68,7 +68,7 @@ h2 {
 }
 
 #add-card:hover {
-  background: #0056b3;
+  background: #00e239;
 }
 
 
