@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #eef2f7;
   margin: 0;
   padding: 20px;
@@ -42,7 +42,7 @@ h2 {
 }
 
 .delete-btn {
-  background: #e74c3c;
+  background: #ff3f29;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -53,11 +53,11 @@ h2 {
 }
 
 .delete-btn:hover {
-  background: #c0392b;
+  background: #ff220a;
 }
 
 .edit-btn{
-  background: #f39c12;
+  background: #353535;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -68,7 +68,7 @@ h2 {
 }
 
 .edit-btn:hover {
-  background: #d35400;
+  background: #000000;
 }
 
 
@@ -108,21 +108,18 @@ h2 {
 #back-menu {
   display: inline-block;
   margin: 20px auto;
-  padding: 10px 20px;
+  padding: 5px 10px;
   font-size: 1em;
   background-color: #007bff;
+  border: 2px solid #007bff;
   color: #fff;
-  border: none;
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
 #back-menu:hover {
-  background-color: #0056b3;
-  transform: scale(1.05);
-}
-
-#back-menu:active {
-  transform: scale(0.95);
+  background-color: #ffffff;
+  color: #000;
+  border: 2px solid #007bff;
 }
