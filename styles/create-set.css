@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f5f7fa;
+  background: #fefefe;
   margin: 0;
   padding: 20px;
   color: #333;
@@ -77,8 +77,8 @@ h2 {
   margin: 20px auto;
   padding: 5px 10px;
   font-size: 1em;
-  background-color: #007bff;
-  border: 2px solid #007bff;
+  background-color: #000000;
+  border: 2px solid #000000;
   color: #fff;
   border-radius: 8px;
   cursor: pointer;
@@ -88,5 +88,5 @@ h2 {
 #back-menu:hover {
   background-color: #ffffff;
   color: #000;
-  border: 2px solid #007bff;
+  border: 2px solid #000000;
 }

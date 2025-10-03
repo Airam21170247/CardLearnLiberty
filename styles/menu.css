@@ -64,7 +64,14 @@ body {
   color: #686868;
 }
 
+#logout {
+  background: #000000;
+  border: 2px solid #000000;
+  color: #ffffff;
+}
+
 #logout:hover{
   background: #ffffff;
   color: #000;
+  border: 2px solid #000000;
 }

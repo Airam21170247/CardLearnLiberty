@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #eef2f7;
+  background: #fefefe;
   margin: 0;
   padding: 20px;
   color: #333;
@@ -12,7 +12,7 @@ body {
   background: #fff;
   border-radius: 12px;
   padding: 30px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   text-align: center;
 }
 
@@ -103,8 +103,8 @@ button {
   margin: 10px auto;
   padding: 5px 10px;
   font-size: 1em;
-  background-color: #007bff;
-  border: 2px solid #007bff;
+  background-color: #000000;
+  border: 2px solid #000000;
   color: #fff;
   border-radius: 8px;
   cursor: pointer;
@@ -114,6 +114,6 @@ button {
 #back-sets:hover {
   background-color: #ffffff;
   color: #000;
-  border: 2px solid #007bff;
+  border: 2px solid #000000;
 }
 
